@@ -26,5 +26,5 @@ jobs:
         with:
           coverage-files: ./././node_modules/coveralls/bin/coveralls.js
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./../coverage/lcov.info
+          path-to-lcov: ./coverage/lcov.info
           coveralls-endpoint: https://coveralls.io
