@@ -4,8 +4,6 @@ name: Test Coveralls
 
 jobs:
 
-  before_script: chmod 0777 ./node_modules/.bin/mocha
-
   build:
     name: Build
     runs-on: ubuntu-latest
