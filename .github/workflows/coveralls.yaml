@@ -1,8 +1,8 @@
 on: ["push", "pull_request"]
 
-name: Test Coveralls
-
 before_script: chmod 0777 ./node_modules/.bin/mocha
+
+name: Test Coveralls
 
 jobs:
 
